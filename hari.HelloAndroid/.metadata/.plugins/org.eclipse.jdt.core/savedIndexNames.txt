@@ -1,0 +1,6 @@
+INDEX VERSION 1.126+C:\dev\git_sandbox\hari.HelloAndroid\.metadata\.plugins\org.eclipse.jdt.core
+2755191085.index
+864176106.index
+2534785040.index
+155226622.index
+52108211.index

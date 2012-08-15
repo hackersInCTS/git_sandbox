@@ -29,13 +29,123 @@
         <div data-role="collapsible-set" data-theme="" data-content-theme="">
             <div data-role="collapsible" data-collapsed="false">
                 <h3>
-                    Welcome to Hackerville!
+                    1. Welcome to Hackerville!
                 </h3>
+                <section role="content">
+                    Welcome to Hackerville section content. This has the usual yada yada here. This is one big line in
+                    the source code without any stlyes on it, but hopefully this is beautifully formatted thanks to
+                    jQuery mobile styles.
+                </section>
             </div>
             <div data-role="collapsible" data-collapsed="true">
                 <h3>
-                    Form Inputs Demo
+                    2. Form Inputs Demo
                 </h3>
+                <section role="content">
+                    <!-- Home -->
+                    <div data-role="content" style="padding: 15px">
+                        <div data-role="fieldcontain">
+                            <fieldset data-role="controlgroup" data-mini="true">
+                                <label for="textinput1">
+                                    Name
+                                </label>
+                                <input name="txtName" id="textinput1" placeholder="What is your name?" value=""
+                                       type="text"/>
+                            </fieldset>
+                        </div>
+                        <div data-role="fieldcontain">
+                            <fieldset data-role="controlgroup" data-mini="true">
+                                <label for="searchinput1">
+                                    Want to search for something?
+                                </label>
+                                <input name="txtSearch" id="searchinput1" placeholder="Enter search query" value=""
+                                       type="search"/>
+                            </fieldset>
+                        </div>
+                        <div data-role="fieldcontain">
+                            <fieldset data-role="controlgroup">
+                                <label for="textarea1">
+                                    Comment
+                                </label>
+                                <textarea name="txtComment" id="textarea1" placeholder="I am a demo textarea control"
+                                          data-mini="true">
+                                </textarea>
+                            </fieldset>
+                        </div>
+                        <div data-role="fieldcontain">
+                            <fieldset data-role="controlgroup">
+                                <label for="toggleswitch1">
+                                    ToggleDemo
+                                </label>
+                                <select name="toggleswitch1" id="toggleswitch1" data-theme="" data-role="slider"
+                                        data-mini="true">
+                                    <option value="off">
+                                        Off
+                                    </option>
+                                    <option value="on">
+                                        On
+                                    </option>
+                                </select>
+                            </fieldset>
+                        </div>
+                        <div data-role="fieldcontain">
+                            <fieldset data-role="controlgroup" data-mini="true">
+                                <label for="slider1">
+                                    SliderDemo
+                                </label>
+                                <input type="range" name="slider" id="slider1" value="50" min="0" max="100"
+                                       data-highlight="true"/>
+                            </fieldset>
+                        </div>
+                        <div data-role="fieldcontain">
+                            <label for="selectmenu1">
+                                Options
+                            </label>
+                            <select name="selectmenu1" id="selectmenu1" data-mini="true">
+                                <option value="option1">
+                                    Option 1
+                                </option>
+                                <option value="option2">
+                                    Option 2
+                                </option>
+                                <option value="option3">
+                                    Option 3
+                                </option>
+                            </select>
+                        </div>
+                        <div data-role="fieldcontain">
+                            <fieldset data-role="controlgroup" data-type="vertical" data-mini="true">
+                                <legend>
+                                    Radio
+                                </legend>
+                                <input name="radiobuttons1" id="radio1" value="male" type="radio"/>
+                                <label for="radio1">
+                                    Male
+                                </label>
+                                <input name="radiobuttons1" id="radio2" value="female" type="radio"/>
+                                <label for="radio2">
+                                    Female
+                                </label>
+                            </fieldset>
+                        </div>
+                        <div data-role="fieldcontain">
+                            <fieldset data-role="controlgroup" data-type="horizontal" data-mini="true">
+                                <legend>
+                                    Checkbox
+                                </legend>
+                                <input name="checkbox1" id="checkbox1" type="checkbox"/>
+                                <label for="checkbox1">
+                                    Checkbox 01
+                                </label>
+                                <input name="checkbox2" id="checkbox2" type="checkbox"/>
+                                <label for="checkbox2">
+                                    Checkbox 02
+                                </label>
+                            </fieldset>
+                        </div>
+                        <input type="submit" value="Submit" data-mini="true"/>
+                    </div>
+                </section>
             </div>
         </div>
         <div>
